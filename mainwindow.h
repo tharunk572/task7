@@ -29,7 +29,7 @@ public:
         db.setHostName("localhost");
             db.setDatabaseName("SortedTime");
             db.setUserName("postgres");
-            db.setPassword("divya");
+            db.setPassword("qwerty");
             if(db.open())
             {
                 QMessageBox::information(this,"Connected","DataBase Connected Succesfully");
